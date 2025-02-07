@@ -1,11 +1,11 @@
 import React from 'react'
 import Header from './header'
-import { AppBar, Breadcrumbs, Button, Typography } from '@mui/material'
+import { Breadcrumbs, Button, Typography } from '@mui/material'
 import { useFilter } from '@/hooks/useFilter'
 import { TabEnum } from '@/utils/constants';
 
 export default function NavigationBar() {
-  const {updateFilterValue,tabSelected} = useFilter();
+  const {updateFilterValue} = useFilter();
   const TabSelected = (selectedTab:string) =>{
     updateFilterValue("tabSelected",selectedTab)
   }

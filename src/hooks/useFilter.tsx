@@ -11,7 +11,7 @@ const initialFilterState: Omit<
   FilterContext,
   'updateFilterValue'
 > = {
-    tabSelected:''
+    tabSelected:TabEnum.HOME
 };
 
 export const FilterContext = createContext<FilterContext>({

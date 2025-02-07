@@ -1,7 +1,6 @@
 import About from '@/components/about';
 import Experience from '@/components/experience';
 import Gallery from '@/components/gallery';
-import Header from '@/components/header'
 import Home from '@/components/home';
 import { useFilter } from '@/hooks/useFilter';
 import { TabEnum } from '@/utils/constants';
